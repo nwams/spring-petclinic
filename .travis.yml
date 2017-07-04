@@ -1,2 +1,4 @@
 language: java
 jdk: oraclejdk8
+install: curl -sSf https://gitlinks.github.io/cl-bins/install.sh | sh
+after_success: "~/.gitlinks/hermes-rust-ci"
